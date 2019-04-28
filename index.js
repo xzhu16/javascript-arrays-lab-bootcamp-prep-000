@@ -11,4 +11,4 @@ function destructivelyPrependKitten() {
   return kittens
 }
 
-function 
+function destructively
