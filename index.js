@@ -26,7 +26,18 @@ function appendKitten() {
 }
 
 function prependKitten() {
-  return []
+  return ["Arnold", ...kittens]
 }
+
+function removeLastKitten() {
+  kittens.pop()
+  return kittens
+}
+
+
+
+
+
+
 
 
